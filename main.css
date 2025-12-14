@@ -23,3 +23,13 @@ body {
   letter-spacing: 0.05em;
 }
 
+header {
+  padding-left: 2rem; /* moves header content away from the left edge */
+}
+
+.logo {
+  font-family: 'AngelicWar', serif;
+  font-size: 3rem;
+  letter-spacing: 0.05em;
+  margin: 0; /* keep margin controlled */
+}
