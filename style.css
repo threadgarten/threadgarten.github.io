@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'AngelicWar';
-  src: url('AngelicWar.ttf') format('truetype'); /* or 'fonts/AngelicWar.ttf' if in a fonts folder */
+  src: url('AngelicWar.ttf') format('truetype'); /* or fonts/AngelicWar.ttf if in a folder */
 }
 
 .logo {
   font-family: 'AngelicWar', serif;
-  font-size: 3rem;     /* adjust size as needed */
+  font-size: 3rem;
   letter-spacing: 0.05em;
-  margin: 0;
 }
+
