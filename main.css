@@ -33,3 +33,32 @@ header {
   letter-spacing: 0.05em;
   margin: 0; /* keep margin controlled */
 }
+.art-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem; /* spacing from text above */
+}
+
+.art-item img {
+  width: 200px; /* adjust size as needed */
+  height: auto;
+  object-fit: contain;
+  border: 1px solid #ddd; /* optional subtle border */
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.85); /* makes PNG stand out on background */
+}
+
+.art-title {
+  font-family: 'AngelicWar', serif;
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.art-details {
+  font-family: serif;
+  font-size: 0.9rem;
+  color: #555;
+  margin: 0;
+}
