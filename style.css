@@ -1,3 +1,16 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-size: cover;       /* fills entire screen */
+  background-position: center;  /* keeps it centered */
+  background-repeat: no-repeat;
+}
+
 @font-face {
   font-family: 'AngelicWar';
   src: url('AngelicWar.ttf') format('truetype'); /* or fonts/AngelicWar.ttf if in a folder */
