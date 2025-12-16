@@ -53,3 +53,23 @@ header {
   color: #555;
   margin: 0;
 }
+/* Header spacing (logo area) */
+.site-header {
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+/* White floating panel */
+.content-panel {
+  background: rgba(255, 255, 255, 0.95);
+  max-width: 900px;        /* width of panel */
+  margin: 0 auto 4rem;    /* center + bottom space */
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Top bar inside panel */
+.top-bar {
+  height: 50px;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
