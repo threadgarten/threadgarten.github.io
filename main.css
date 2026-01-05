@@ -60,7 +60,7 @@ header {
 
 /* White floating panel */
 .content-panel {
-  background: rgba(255, 255, 255, 0.65);
+  background: rgba(255, 255, 255, 0.55);
   max-width: 900px;        /* width of panel */
   margin: 0 auto 4rem;    /* center + bottom space */
   padding: 2rem;
